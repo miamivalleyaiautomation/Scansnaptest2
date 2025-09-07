@@ -1,0 +1,21 @@
+{
+  "name": "barcode-scanner-vue",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "vite --https",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.38",
+    "vue-qrcode-reader": "^5.7.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
